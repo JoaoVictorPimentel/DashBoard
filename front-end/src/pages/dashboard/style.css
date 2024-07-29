@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.sidebar{
+    width: 250px;
+    height: 112vh;
+    background-color: #8d86f4;
+}
+
+.content-right {
+    width: calc(100% - 250px);
+    height: 100vh;
+}
+
+.content-right .navbar{
+    width: 100%;
+    padding: 15px 15px;
+    background-color: #7872cf;
+}
+
+.content-right .pages{
+    width: 100%;
+    height: auto;
+}
